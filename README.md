@@ -13,14 +13,6 @@ Identify the most influential factors contributing to customer churn to help sta
 
 ---
 
-## 🧾 Dataset
-
-- **Source**: Provided telecom customer data (`Customer Churn.csv`)
-- **Rows**: ~7,000 customer records  
-- **Columns**: Customer demographics, service usage, contract details, billing information, and churn status.
-
----
-
 ## 🔧 Tools & Technologies
 
 - **Language**: Python  
@@ -47,9 +39,6 @@ Identify the most influential factors contributing to customer churn to help sta
   - Customers in their **first year** have a **50%** churn rate.  
   - This drops to **15%** after **three years**.
 
-- **Internet Service**:  
-  - **Fiber optic** users churn more than **DSL** users (30% vs 20%).
-
 - **Senior Citizens**:  
   - Churn rate is **41%** for seniors, compared to **26%** for others.
 
@@ -70,39 +59,3 @@ Identify the most influential factors contributing to customer churn to help sta
 - Develop **senior-focused retention programs**.
 
 ---
-
-## 📁 Repository Structure
-
-```
-📦Customer-Churn-EDA/
- ┣ 📊 CCA.ipynb            # Main Jupyter Notebook with EDA
- ┣ 📂 data/
- ┃ ┗ 📄 Customer Churn.csv  # Dataset used
- ┣ 📄 README.md             # Project documentation
- ┗ 📄 Customer Churn Analysis.pdf  # Summary of findings
-```
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Customer-Churn-EDA.git
-   ```
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch the Jupyter Notebook:
-   ```bash
-   jupyter notebook CCA.ipynb
-   ```
-
----
-
-## 📬 Contact
-
-For any questions or collaborations:  
-**Your Name**  
-[LinkedIn](https://www.linkedin.com/in/yourprofile) | [Email](mailto:your.email@example.com)
